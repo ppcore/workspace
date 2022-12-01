@@ -1,4 +1,7 @@
 name: COMMON-PR
+on:
+  workflow_call:
+
 jobs:
   Local:
     runs-on: ubuntu-latest
