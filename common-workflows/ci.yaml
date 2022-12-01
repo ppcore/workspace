@@ -1,8 +1,4 @@
-name: PR
-on:
-  pull_request:
-    branches:
-      - main
+name: COMMON-PR
 jobs:
   Local:
     runs-on: ubuntu-latest
